@@ -1,0 +1,15 @@
+def tool_node(state):
+
+    if not state["approved"]:
+
+        state["final_answer"]="Request Cancelled"
+
+        return state
+
+    tool = TOOLS[state["tool_name"]]
+
+    result = tool(state["tool_input"])
+
+    state["tool_output"]=str(result)
+
+    return state

@@ -1,0 +1,15 @@
+streamlit
+langchain
+langgraph
+langchain-community
+langchain-core
+langchain-ollama
+chromadb
+sentence-transformers
+pypdf
+sqlalchemy
+pandas
+python-dotenv
+faiss-cpu
+azure-cosmos
+openai

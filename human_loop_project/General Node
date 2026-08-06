@@ -1,0 +1,7 @@
+def general_node(state):
+
+    result = general_agent.run(state["question"])
+
+    state["final_answer"] = result["response"]
+
+    return state

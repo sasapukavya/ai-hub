@@ -1,0 +1,29 @@
+def human_node(state):
+
+    print()
+
+    print("="*40)
+
+    print("Question")
+
+    print(state["question"])
+
+    print()
+
+    print("Tool")
+
+    print(state["tool_name"])
+
+    print()
+
+    print("Input")
+
+    print(state["tool_input"])
+
+    print()
+
+    choice = input("Approve? (yes/no): ")
+
+    state["approved"] = choice.lower()=="yes"
+
+    return state

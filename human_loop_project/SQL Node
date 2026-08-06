@@ -1,0 +1,9 @@
+def sql_node(state):
+
+    result = sql_agent.run(state["question"])
+
+    state["tool_name"] = result["tool"]
+
+    state["tool_input"] = result["tool_input"]
+
+    return state

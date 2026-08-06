@@ -1,0 +1,7 @@
+def supervisor_node(state):
+
+    agent = decide_agent(state["question"])
+
+    state["agent"] = agent
+
+    return state
