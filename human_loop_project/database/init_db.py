@@ -5,7 +5,7 @@ urllib3.disable_warnings()
 
 client = CosmosClient(
     "https://cosmos-emulator:8081/",
-    credential="C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==",
+    credential="C2y--------------------------------------------------------",
     connection_verify=False
 )
 
