@@ -5,7 +5,7 @@ urllib3.disable_warnings()
 
 URL = "https://cosmos-emulator:8081/"
 
-KEY = "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw=="
+KEY = "C2y-----------------------------------------------------------------"
 
 DATABASE_NAME = "EmployeeDB"
 CONTAINER_NAME = "Employees"
